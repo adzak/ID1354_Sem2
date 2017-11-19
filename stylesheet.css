@@ -1,0 +1,496 @@
+body {
+   margin:0;
+   background: url(images/food.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;  
+}
+
+h1 { 
+    color: floralwhite;
+    text-align: center;
+    font-size: 100px;
+    margin:2%;
+}
+
+h2 {
+    font-family: "Arial", Times, serif;
+    font-size: 25px;
+    color: darkslategray;
+    margin-bottom:1%
+}
+
+h3 {
+    font-family: "Arial", Times, serif;
+    font-size: 25px;
+    color: floralwhite;
+    text-align: center;
+    margin-bottom:1% 
+}
+
+h4 {  
+    font-family: "Arial", Times, serif;
+    font-size: 15px;
+    color: darkslategrey;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 2%
+    
+}
+
+p {
+    font-family: "Arial", Times, serif;
+    margin:0px;
+    color: darkslategrey;
+    font-size:12px;  
+}
+
+hr {
+    border: solid 1px darkslategrey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(205,92,92,.5);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,.50);
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:30px;
+    font-family: "Arial", Times, serif;  
+    
+}
+
+li a:hover { 
+    background-color:indianred;
+}
+
+li {
+    float:left;
+}
+
+li:last-child { 
+    float:right; 
+}
+
+.transbox {
+    background: #fff;
+    padding: 2%;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 1%;
+    position: relative;
+    background-color:rgba(255,255,255,.9);
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,.9);
+    overflow: auto;
+}
+
+.transbox p {
+    color: darkslategray;
+    margin-bottom: 2%;
+    font-size:13px;
+}
+
+.transbox img {
+    width:100%;
+    height: 100%;
+}
+
+.commentbox {
+    background: #fff;
+    padding: 1%; 
+    width: 98%;
+    background-color:rgba(255,255,255,.85);
+    margin-bottom: 1%;
+    color:darkslategray;
+}
+
+.commentbox p {
+    margin:0px;
+    font-size: 14px;
+}
+
+p a {
+    color: darkslategrey;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: green ;
+}
+
+
+.weekdaysstart {
+    width: 14%;
+    height: 20px;
+    background-color:floralwhite;
+    border: 1px solid darkslategrey;
+    text-align:center;
+    float: left;
+    display:inline-block;
+    position:relative;
+}
+
+.weekdays {
+    width:14%;
+    height: 20px;
+    background-color:floralwhite;
+    border: 1px solid darkslategrey;
+    text-align:center;
+    float: left;
+    display:inline-block;
+    position:relative;
+}
+
+.hint {
+    width: 99%;
+    height: 20px;
+    background-color:floralwhite;
+    border: 1px solid darkslategrey;
+    text-align:center;
+    padding-top: 5px;
+   
+}
+
+.one {  
+  background-color: floralwhite;
+  width: 14%;
+  height: 100px;
+  float: left;
+  border: 1px solid darkslategrey;
+  color: darkslategrey;  
+    
+}
+
+.nextrow {
+  background-color: floralwhite;
+  width: 14%;
+  height: 100px;
+  float: left;
+  clear:left;
+  border: 1px solid darkslategrey;
+  color: darkslategrey;
+  
+
+}
+
+.nextmonth { 
+  background-color: floralwhite;
+  width: 14%;
+  height: 100px;
+  float: left;
+  border: 1px solid darkslategrey;
+  color: darkslategrey; 
+}
+
+.lastrow {
+  width: 14%;
+  height: 100px;
+  float: left;
+  border: 1px solid darkslategrey;
+  color: darkslategrey;
+  background-color: floralwhite;
+  margin-bottom:2%;
+}
+
+.pancakes {
+    width: 14%;
+    height: 100px;
+    float:left;
+    background: url(images/pancakes.jpeg);
+    background-size: cover;
+    border: 1px solid darkslategrey;
+}
+
+.meatballs {
+    width: 14%;
+    height: 100px;
+    float:left;
+    border: 1px solid darkslategrey;
+    background: url(images/kotbulls.jpg);
+    background-size: cover;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: indianred;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.commentbox input[type=submit] {
+    width: 20%;
+    background-color: indianred;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #b85252;
+}
+
+div.comments {
+    border-radius: 5px;
+    padding:0px;
+}
+
+.tastyrecipes {
+    float: right;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 19px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Bordered form with removed border */
+form {
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: indianred;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    background-color: #b85252;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 20%;
+    border-radius: 20%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    color:darkslategray;
+    font-weight:bold;
+}
+
+.container p{
+    font-style: italic;
+    color:darkslategrey;
+    font-size:12px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+dropdown:hover .dropbtn {
+    background-color:indianred;
+    
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(205,92,92,.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color:indianred;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size:40px;
+    }
+    
+    h2 {
+        font-size:18px;
+        margin-bottom: 15px;
+    }
+    
+    .transbox p{
+        font-size:12px;
+        margin-bottom: 10px;
+    }
+    
+    li a{
+        font-size: 15px;
+        padding: 20px 16px;
+        
+    }
+    
+    .tastyrecipes {
+        font-size: 9px;
+    }
+    
+    .one{
+        width:12%;
+    }
+    
+    .nextrow {
+        width:12%;
+    }
+    
+    .nextmonth {
+        width:12%;
+    }
+    
+    .pancakes {
+        width:12%;
+    }
+    
+    .meatballs {
+        width:12%;
+    }
+    
+    .lastrow {
+        width:12%;
+    }
+    
+    .weekdaysstart{
+        width:12%;
+    }
+    .weekdays {
+        width:12%;
+    }
+        
+}
+
+@media screen and (max-width: 1014px) {
+    
+    h1 {
+        font-size:40px;
+    }
+    
+    h2 {
+        font-size:18px;
+        margin-bottom: 15px;
+    }
+    
+    .transbox p{
+        font-size:12px;
+        margin-bottom: 10px;
+    }
+    
+    li a{
+        font-size: 15px;
+        padding: 20px 16px;
+        
+    }
+    
+    .tastyrecipes {
+        font-size: 9px;
+    }
+    
+    .one{
+        width:12%;
+    }
+    
+    .nextrow {
+        width:12%;
+    }
+    
+    .nextmonth {
+        width:12%;
+    }
+    
+    .pancakes {
+        width:12%;
+    }
+    
+    .meatballs {
+        width:12%;
+    }
+    
+    .lastrow {
+        width:12%;
+    }
+    
+}
